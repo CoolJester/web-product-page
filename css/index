@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link  rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"  crossorigin="anonymous"/>
+  <title>Product Landing Page</title>
+</head>
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+      <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="">
+
+      <ul>
+        <li><a class="nav-link" href="#hook">Features</a></li>
+        <li><a class="nav-link" href="#video">How it works</a></li>
+        <li><a class="nav-link" href="#Pricing">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+      <h1 class="heading-1">Handcrafted, home-made masterpieces</h1>
+      <input type="email" name="email" id="email" placeholder="Enter your email"><br>
+      <button type="submit" id="submit">Get Started</button>
+    </form>
+
+    <section id="hook" class="hook">
+      
+      <div class="hook-item">
+        <i class="fa fa-3x fa-fire hook-item-img"></i>
+        <div class="hook-content">
+          <h2 class="heading-1">Premium Materials</h2>
+          <p class="hook-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, tempore fuga, sint voluptatibus molestiae nobis, explicabo velit similique amet aut minus. In nisi ipsam at quia, aliquid optio reprehenderit rem?</p>
+        </div>
+      </div>
+
+      <div class="hook-item">
+        <i class="fa fa-3x fa-truck hook-item-img"></i>
+        <div class="hook-content">
+          <h2 class="heading-1">Fast Shipping</h2>
+          <p class="hook-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, tempore fuga, sint voluptatibus molestiae nobis, explicabo velit similique amet aut minus. In nisi ipsam at quia, aliquid optio reprehenderit rem?</p>
+        </div>
+      </div>
+
+      <div class="hook-item">
+        <i class="fa fa-3x fa-battery-full hook-item-img"></i>
+        <div class="hook-content">
+          <h2 class="heading-1">Quality Assurance</h2>
+          <p class="hook-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, tempore fuga, sint voluptatibus molestiae nobis, explicabo velit similique amet aut minus. In nisi ipsam at quia, aliquid optio reprehenderit rem?</p>
+        </div>
+      </div>
+
+
+    </section>
+
+    <div class="video">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="Roman Carnival Overture Op. 9 for Five Trombones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div id="Pricing" class="card-container">
+      <div class="card">
+        <div class="card-heading">
+          <h3 class="card-heading">TENOR TROMBONE</h3>          
+        </div>
+        <div class="card-content">
+          <p class="card-price">$600</p>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt dolor facere voluptas mollitia tempora minima magnam eligendi, deleniti atque repudiandae unde, repellat ipsam saepe beatae voluptatibus quis similique at iure.</p>
+          <a href="#" class="card-link">SELECT</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-heading">
+          <h3 class="card-heading">TENOR TROMBONE</h3>          
+        </div>
+        <div class="card-content">
+          <p class="card-price">$600</p>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt dolor facere voluptas mollitia tempora minima magnam eligendi, deleniti atque repudiandae unde, repellat ipsam saepe beatae voluptatibus quis similique at iure.</p>
+          <a href="#" class="card-link">SELECT</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-heading">
+          <h3 class="card-heading">TENOR TROMBONE</h3>          
+        </div>
+        <div class="card-content">
+          <p class="card-price">$600</p>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt dolor facere voluptas mollitia tempora minima magnam eligendi, deleniti atque repudiandae unde, repellat ipsam saepe beatae voluptatibus quis similique at iure.</p>
+          <a href="#" class="card-link">SELECT</a>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Contact</a>
+      </div>
+      
+  
+      <div class="footer-base">
+        <p>Copyright 2016, Original Trombones</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
